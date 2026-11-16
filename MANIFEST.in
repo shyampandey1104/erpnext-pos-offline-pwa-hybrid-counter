@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pos_pwa *.css
+recursive-include pos_pwa *.csv
+recursive-include pos_pwa *.html
+recursive-include pos_pwa *.ico
+recursive-include pos_pwa *.js
+recursive-include pos_pwa *.json
+recursive-include pos_pwa *.md
+recursive-include pos_pwa *.png
+recursive-include pos_pwa *.py
+recursive-include pos_pwa *.svg
+recursive-include pos_pwa *.txt
+recursive-exclude pos_pwa *.pyc
